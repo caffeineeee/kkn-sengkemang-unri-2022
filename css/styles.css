@@ -66,6 +66,10 @@ footer::after {
 /* typography
 =================== */
 
+header nav ul li a {
+	font-size: 1em;;
+}
+
 h1 {
 	font-weight: 300;
 	font-size: 1.7rem;
@@ -79,6 +83,14 @@ p {
 
 p:last-of-type {
 	margin-bottom: 0;
+}
+
+.info-div p {
+	padding: 1em;
+	font-size: 1.2em;
+	font-weight: 600;
+	background-color: #e0ddaa;
+	color: #141e27;
 }
 
 .title {
@@ -222,7 +234,7 @@ nav a:focus {
 	background-size: cover;
 	background-position: center;
 	
-	padding: 10em 0;
+	padding: 8em 0;
 	color: #efedde;
 }
 
@@ -231,6 +243,26 @@ nav a:focus {
 		height: 100vh;
 		padding-top: 35vh;
 	}
+}
+
+/* google maps */
+
+.mapouter {
+	position:relative;
+	text-align:right;
+	width:100%;
+	height:348px;
+}
+
+.gmap-canvas {
+	overflow:hidden;
+	background:none!important;
+	width:100%;
+	height:348px;
+}
+
+.gmap-iframe {
+	height:348px!important;
 }
 
 /* portfolio
@@ -269,6 +301,7 @@ nav a:focus {
 
 	.gutter {
 		min-height: 28vh;
+		background-color: #141e27;
 	}
 }
 
