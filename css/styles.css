@@ -100,6 +100,10 @@ p:last-of-type {
 	font-size: 1em;
 }
 
+.insta-link {
+	font-size: 1.25em;
+}
+
 @media (min-width:60rem) {
 
 	p {
@@ -217,6 +221,7 @@ nav a:focus {
 	background-image: url(../img/posko.png);
 	background-size: cover;
 	background-position: center;
+	
 	padding: 10em 0;
 	color: #efedde;
 }
@@ -246,19 +251,30 @@ nav a:focus {
 
 @media (min-width: 37rem) {
 	.port-item {
-		width: 50%;
+		width: 33.3333334%;
 		float: left;
 	}
 }
 
+@media (max-width: 37rem) {
+	.gutter {
+		height: 0vh;
+	}
+}
+
 @media (min-width: 60rem) {
-	.port-item {
-		width: 33.3333334%;
-		overflow: hidden;
+
+	.port-item-dpl {
+		width: 94%;
+		float: left;
 	}
 
 	.port-item:hover {
 		transform: translateY(0%);
+	}
+
+	.gutter {
+		min-height: 24vh;
 	}
 }
 
