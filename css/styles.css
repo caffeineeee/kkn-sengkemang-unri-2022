@@ -42,12 +42,6 @@ footer::after {
 	margin-top: 0;
 }
 
-.col-1 {
-	width: 33.333334%;
-	float: left;
-}
-
-
 @media (min-width: 40rem) {
 
 	[class^=col-] {
@@ -64,12 +58,8 @@ footer::after {
 		padding-right: 0;
 	}
 
-	.col-3 {
-		width: 50%;
-	}
-
-	.col-1 {
-		width: 16.6666%;
+	.col-6 {
+		text-align: center;
 	}
 }
 
@@ -104,20 +94,10 @@ p:last-of-type {
 	font-size: .9em;
 }
 
-.title-cta {
-	margin: 0 0 .5em;
-}
-
 .insta-link span {
 	font-weight: 300;
 	display: block;
 	font-size: 1em;
-}
-
-.unstyled-list {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
 }
 
 @media (min-width:60rem) {
@@ -282,15 +262,6 @@ nav a:focus {
 	}
 }
 
-
-/* CTA
-=================== */
-
-.cta {
-	background-color: #e0ddaa;
-	padding: 5em 0;
-}
-
 /* Instagram logo*/
 
 .instagram-logo {
@@ -304,5 +275,5 @@ footer {
 	background: #1f3239;
 	color: #efedde;
 	text-align: left;
-	padding: 5em 0;
+	padding: 1.25em 0;
 }
