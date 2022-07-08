@@ -288,6 +288,18 @@ nav a:focus {
 	}
 }
 
+@media (max-width: 38rem) {
+	.port-item {
+		width: 33.3333334%;
+		float: left;
+	}
+
+	.port-item-dpl {
+		width: 80%;
+		float: none;
+	}
+}
+
 @media (min-width: 60rem) {
 
 	.port-item-dpl {
