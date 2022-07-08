@@ -85,23 +85,23 @@ p:last-of-type {
 	font-size: 1.75rem;
 	margin-bottom: 1.5em;
 	font-weight: 700;
-	margin-top: 1em;
+	margin-top: 1.1em;
 }
 
 .title span {
 	font-weight: 300;
 	display: block;
-	font-size: .9em;
+	font-size: 1.1em;
 }
 
 .insta-link span {
 	font-weight: 300;
 	display: block;
-	font-size: 1em;
+	font-size: .9em;
 }
 
 .insta-link {
-	font-size: 1.25em;
+	font-size: 25px;
 }
 
 @media (min-width:60rem) {
@@ -256,12 +256,6 @@ nav a:focus {
 	}
 }
 
-@media (max-width: 37rem) {
-	.gutter {
-		height: 0vh;
-	}
-}
-
 @media (min-width: 60rem) {
 
 	.port-item-dpl {
@@ -274,7 +268,7 @@ nav a:focus {
 	}
 
 	.gutter {
-		min-height: 24vh;
+		min-height: 28vh;
 	}
 }
 
