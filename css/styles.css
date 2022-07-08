@@ -281,31 +281,23 @@ nav a:focus {
 	display: block;
 }
 
-@media (min-width: 37rem) {
-	.port-item {
-		width: 33.3333334%;
-		float: left;
-	}
-}
-
 @media (max-width: 38rem) {
 	.port-item {
 		width: 33.3333334%;
 		float: left;
 	}
 
-	.port-item-dpl {
-		width: 80%;
-		float: none;
+	.ketua {
+		/* display: flex;
+		align-content: center;
+		justify-content: center; */
+		margin-left: auto;
+		margin-right: auto;
+		width: 54%;
 	}
 }
 
 @media (min-width: 60rem) {
-
-	.port-item-dpl {
-		width: 94%;
-		float: left;
-	}
 
 	.port-item:hover {
 		transform: translateY(0%);
@@ -314,6 +306,25 @@ nav a:focus {
 	.gutter {
 		min-height: 28vh;
 		background-color: #141e27;
+	}
+}
+
+@media (min-width: 37rem) {
+	.port-item {
+		width: 33.3333334%;
+		float: left;
+	}
+
+	.dpl {
+		display: grid;
+		place-content: center;
+		width: 100%;
+	}
+
+	.ketua {
+		margin-left: auto;
+		margin-right: auto;
+		width: 39.4%;
 	}
 }
 
