@@ -243,6 +243,10 @@ nav a:focus {
 		height: 100vh;
 		padding-top: 35vh;
 	}
+
+	.col-6 {
+		text-align: center;
+	}
 }
 
 /* google maps */
@@ -308,6 +312,10 @@ nav a:focus {
 		min-height: 28vh;
 		background-color: #141e27;
 	}
+
+	.col-6 {
+		text-align: center;
+	}
 }
 
 @media (min-width: 37rem) {
@@ -326,6 +334,10 @@ nav a:focus {
 		margin-left: auto;
 		margin-right: auto;
 		width: 39.4%;
+	}
+	
+	.col-6 {
+		text-align: center;
 	}
 }
 
