@@ -100,6 +100,11 @@ p:last-of-type {
 	margin-top: 1.1em;
 }
 
+.title-struktur {
+	font-size: 1.25em;
+	font-weight: 700;
+}
+
 .title span {
 	font-weight: 300;
 	display: block;
@@ -125,6 +130,10 @@ p:last-of-type {
 
 	.title {
 		font-size: 3.7rem;
+	}
+
+	.title-struktur {
+		font-size: 2rem;
 	}
 }
 
