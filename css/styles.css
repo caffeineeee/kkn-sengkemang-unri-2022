@@ -239,11 +239,10 @@ nav a:focus {
 =================== */
 
 .home-hero {
-	background-image: url(../img/posko.png);
+	background-image: url(../img/foto-langit.png);
 	background-size: cover;
 	background-position: center;
-	
-	padding: 8em 0;
+	padding-bottom: 23em;
 	color: #efedde;
 }
 
@@ -317,6 +316,10 @@ nav a:focus {
 	.insta-link {
 		font-size: 18px;
 	}
+
+	.home-hero {
+		padding: 11em 0;
+	}
 }
 
 @media (min-width: 60rem) {
@@ -336,6 +339,10 @@ nav a:focus {
 
 	.instagram-div {
 		height: 7em;
+	}
+
+	.home-hero {
+		background-size: 34%;
 	}
 }
 
