@@ -118,7 +118,7 @@ p:last-of-type {
 }
 
 .insta-link {
-	font-size: 25px;
+	font-size: 20px;
 }
 
 @media (min-width:60rem) {
@@ -315,7 +315,7 @@ nav a:focus {
 	}
 
 	.insta-link {
-		font-size: 1em;
+		font-size: 0.8em;
 	}
 }
 
