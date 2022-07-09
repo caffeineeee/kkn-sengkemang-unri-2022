@@ -300,6 +300,10 @@ nav a:focus {
 	.col-6 {
 		text-align: center;
 	}
+
+	.instagram-div {
+		height: 5em;
+	}
 }
 
 @media (min-width: 60rem) {
@@ -315,6 +319,10 @@ nav a:focus {
 
 	.col-6 {
 		text-align: center;
+	}
+
+	.instagram-div {
+		height: 7em;
 	}
 }
 
