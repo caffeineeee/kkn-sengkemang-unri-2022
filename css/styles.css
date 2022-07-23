@@ -1,185 +1,183 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;1,100&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;1,100&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
 
 * {
-	box-sizing: border-box;
-	transition: all ease-in-out 250ms;
+  box-sizing: border-box;
+  transition: all ease-in-out 250ms;
 }
 
 body {
-	margin: 0;
-	font-family: 'Montserrat', 'Source Sans Pro', 'Poppins', sans-serif;
-	text-align: center;
+  margin: 0;
+  font-family: "Montserrat", "Source Sans Pro", "Poppins", sans-serif;
+  text-align: center;
 }
 
 img {
-	max-width: 100%;
-	height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
-	width: 95%;
-	max-width: 70em;
-	margin: 0 auto;
+  width: 95%;
+  max-width: 70em;
+  margin: 0 auto;
 }
 
 .clearfix::after,
 section::after,
 footer::after {
-	content: '';
-	display: block;
-	clear: both;
+  content: "";
+  display: block;
+  clear: both;
 }
 
 /* Column system
 =================== */
 
-[class^=col-] {
-	width: 100%;
-	margin-top: 1em;
+[class^="col-"] {
+  width: 100%;
+  margin-top: 1em;
 }
 
-[class^=col-]:first-child {
-	margin-top: 0;
+[class^="col-"]:first-child {
+  margin-top: 0;
 }
 
 @media (min-width: 40rem) {
+  [class^="col-"] {
+    float: left;
+    padding: 0 0.5em;
+    margin-top: 0;
+  }
 
-	[class^=col-] {
-		float: left;
-		padding: 0 .5em;
-		margin-top: 0;
-	}
+  [class^="col-"]:first-child {
+    padding-left: 0;
+  }
 
-	[class^=col-]:first-child {
-		padding-left: 0;
-	}
+  [class^="col-"]:last-child {
+    padding-right: 0;
+  }
 
-	[class^=col-]:last-child {
-		padding-right: 0;
-	}
-
-	.col-6 {
-		text-align: center;
-	}
+  .col-6 {
+    text-align: center;
+  }
 }
 
 /* typography
 =================== */
 
 header nav ul li a {
-	font-size: 1em;;
+  font-size: 1em;
 }
 
 h1 {
-	font-weight: 300;
-	font-size: 1.7rem;
-	margin-top: 0;
+  font-weight: 300;
+  font-size: 1.7rem;
+  margin-top: 0;
 }
 
 p {
-	margin-top: 0;
-	line-height: 1.5;
+  margin-top: 0;
+  line-height: 1.5;
 }
 
 p:last-of-type {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .info-div p {
-	padding: 1em;
-	font-size: 1.2em;
-	font-weight: 600;
-	background-color: #e0ddaa;
-	color: #141e27;
+  padding: 1em;
+  font-size: 1.2em;
+  font-weight: 600;
+  background-color: #e0ddaa;
+  color: #141e27;
 }
 
 .title {
-	font-size: 1.55rem;
-	margin-bottom: 1.5em;
-	font-weight: 600;
-	margin-top: 1.1em;
+  font-size: 1.55rem;
+  margin-bottom: 1.5em;
+  font-weight: 600;
+  margin-top: 1.1em;
 }
 
 .title-struktur {
-	font-size: 1.25em;
-	font-weight: 700;
+  font-size: 1.25em;
+  font-weight: 700;
 }
 
 .title span {
-	font-weight: 300;
-	display: block;
-	font-size: 1.1em;
+  font-weight: 300;
+  display: block;
+  font-size: 1.1em;
 }
 
 .insta-link span {
-	font-weight: 300;
-	display: block;
-	font-size: .9em;
+  font-weight: 300;
+  display: block;
+  font-size: 0.9em;
 }
 
 .insta-link {
-	font-size: 20px;
+  font-size: 20px;
 }
 
-@media (min-width:60rem) {
+@media (min-width: 60rem) {
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
 
-	p {
-		font-size: 1.2rem;
-		line-height: 1.6;
-	}
+  .title {
+    font-size: 3.2rem;
+  }
 
-	.title {
-		font-size: 3.2rem;
-	}
-
-	.title-struktur {
-		font-size: 2rem;
-	}
+  .title-struktur {
+    font-size: 2rem;
+  }
 }
 
 /* buttons */
 
 .button {
-	display: inline-block;
-	font-size: 1.15rem;
-	text-decoration: none;
-	text-transform: uppercase;
-	border-width: 2px;
-	border-style: solid;
-	padding: .5em 1.75em;
+  display: inline-block;
+  font-size: 1.15rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-width: 2px;
+  border-style: solid;
+  padding: 0.5em 1.75em;
 }
 
 @media (min-width: 60rem) {
-	.button {
-		font-size: 1.5rem;
-	}
+  .button {
+    font-size: 1.5rem;
+  }
 }
 
 .button-small {
-	font-size: .7rem;
-	font-weight: 700;
+  font-size: 0.7rem;
+  font-weight: 700;
 }
 
 .button-accent {
-	color: #e0ddaa;
-	border-color: #e0ddaa;
+  color: #e0ddaa;
+  border-color: #e0ddaa;
 }
 
 .button-accent:hover,
 .button-accent:focus {
-	background: #e0ddaa;
-	color: #141e27;
+  background: #e0ddaa;
+  color: #141e27;
 }
 
 .button-dark {
-	color: #141e27;
-	border-color: #141e27;
+  color: #141e27;
+  border-color: #141e27;
 }
 
 .button-dark:hover,
 .button-dark:focus {
-	background: #141e27;
-	color: #e0ddaa;
+  background: #141e27;
+  color: #e0ddaa;
 }
 
 /* Parallax
@@ -187,203 +185,190 @@ p:last-of-type {
 
 .parallax--bg,
 .parallax--box {
-	transition: initial;
+  transition: initial;
 }
 
 /* header
 =================== */
 
 header {
-	position: absolute;
-	left: 0;
-	right: 0;
-	margin: 1em;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 1em;
 }
 
 nav ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 nav li {
-	display: inline-block;
-	margin: 1em;
+  display: inline-block;
+  margin: 1em;
 }
 
 nav a {
-	font-weight: 900;
-	text-decoration: none;
-	padding: .5em;
-	text-transform: uppercase;
-	color: #efedde;
-	font-size: .8rem;
+  font-weight: 900;
+  text-decoration: none;
+  padding: 0.5em;
+  text-transform: uppercase;
+  color: #efedde;
+  font-size: 0.8rem;
 }
 
 nav a:hover,
 nav a:focus {
-	color: #efedde;
+  color: #efedde;
 }
 
-@media (min-width:60rem) {
-	.logo {
-		float: left;
-	}
+@media (min-width: 60rem) {
+  .logo {
+    float: left;
+  }
 
-	nav {
-		float: right;
-	}
+  nav {
+    float: right;
+  }
 }
 
 /* hero-home
 =================== */
 
 .home-hero {
-	background-image: url(../img/foto-langit.jpg);
-	background-size: cover;
-	background-position: center;
-	padding-bottom: 23em;
-	color: #efedde;
+  background-image: url(../img/foto-langit.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 23em;
+  color: #efedde;
 }
 
 @media (min-width: 60rem) {
-	.home-hero {
-		height: 100vh;
-		padding-top: 35vh;
-	}
+  .home-hero {
+    height: 100vh;
+    padding-top: 35vh;
+  }
 
-	.col-6 {
-		text-align: center;
-	}
+  .col-6 {
+    text-align: center;
+  }
 }
 
 /* google maps */
 
 .mapouter {
-	position:relative;
-	text-align:right;
-	width:100%;
-	height:348px;
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 348px;
 }
 
 .gmap-canvas {
-	overflow:hidden;
-	background:none!important;
-	width:100%;
-	height:348px;
+  overflow: hidden;
+  background: none !important;
+  width: 100%;
+  height: 348px;
 }
 
 .gmap-iframe {
-	height:348px!important;
+  height: 348px !important;
 }
 
 /* portfolio
 =================== */
 
 .portfolio {
-	margin: 3em 0 0;
+  margin: 3em 0 0;
 }
 
 .port-item {
-	margin: 0;
-	position: relative;
+  margin: 0;
+  position: relative;
 }
 
 .port-item img {
-	display: block;
+  display: block;
 }
 
 @media (max-width: 38rem) {
-	.port-item {
-		width: 33.3333334%;
-		float: left;
-	}
+  .port-item {
+    width: 33.3333334%;
+    float: left;
+  }
 
-	/* .ketua {
-		margin-left: auto;
-		margin-right: auto;
-		width: 54%;
-	} */
+  .col-6 {
+    text-align: center;
+  }
 
-	.col-6 {
-		text-align: center;
-	}
+  .instagram-div {
+    height: 3.2em;
+  }
 
-	.instagram-div {
-		height: 3.2em;
-	}
+  .insta-link {
+    font-size: 18px;
+  }
 
-	.insta-link {
-		font-size: 18px;
-	}
-
-	.home-hero {
-		padding: 11em 0;
-	}
+  .home-hero {
+    padding: 11em 0;
+  }
 }
 
 @media (min-width: 60rem) {
+  .port-item:hover {
+    transform: translateY(0%);
+  }
 
-	.port-item:hover {
-		transform: translateY(0%);
-	}
+  .gutter {
+    min-height: 28vh;
+    background-color: #141e27;
+  }
 
-	.gutter {
-		min-height: 28vh;
-		background-color: #141e27;
-	}
+  .col-6 {
+    text-align: center;
+  }
 
-	.col-6 {
-		text-align: center;
-	}
+  .instagram-div {
+    height: 7em;
+  }
 
-	.instagram-div {
-		height: 7em;
-	}
-
-	.home-hero {
-		background-size: 34%;
-	}
+  .home-hero {
+    background-size: 34%;
+  }
 }
 
 @media (min-width: 37rem) {
-	.port-item {
-		width: 33.3333334%;
-		float: left;
-	}
+  .port-item {
+    width: 33.3333334%;
+    float: left;
+  }
 
-	.dpl {
-		display: grid;
-		place-content: center;
-		width: 100%;
-	}
+  .dpl {
+    display: grid;
+    place-content: center;
+    width: 100%;
+  }
 
-	/* .ketua {
-		margin-left: auto;
-		margin-right: auto;
-		width: 39.4%;
-	} */
-	
-	.col-6 {
-		text-align: center;
-	}
+  .col-6 {
+    text-align: center;
+  }
 }
 
 /* Instagram logo*/
 
 .instagram-logo {
-	width: min(10vw, 4em);
+  width: min(10vw, 4em);
 }
 
 /* Footer
 =================== */
 
 footer {
-	background: #1f3239;
-	color: #efedde;
-	padding: 0.8em 0;
+  background: #1f3239;
+  color: #efedde;
+  padding: 0.8em 0;
 }
 
 .parallax--bg .container {
-	background-color: #e0ddaa50;
+  background-color: #e0ddaa50;
 }
